@@ -6,6 +6,7 @@
     background-color: black;
     color: white;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .subscribed{
@@ -13,9 +14,9 @@
     background-color: white;
 }
 
-/* .input-text{
+.input-text{
     width: 190px;
-    height: 30px;
+    /* height: 30px; */
     font-size: medium;
     font-weight: 400;
     padding: 8px;
@@ -25,7 +26,39 @@
 .calculate-btn{
     color: white;
     background-color: green;
-    height: 30px;
+    height: 38px;
     width: 90px;
     border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* .btn,
+.btn1,
+.btn2,
+.btn3{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 300;
 } */
+
+.toggle-btn{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+.is-toggled{
+    color: #fff;
+    background-color: #000;
+}
