@@ -6,8 +6,18 @@ subscribeBtn.addEventListener('click', function(){
         subscribeBtn.classList.add("subscribed")
     }else{
         subscribeBtn.innerHTML = "Subscribe"
-        confirm("Are you sure you want to Unsubscribed?")
-        subscribeBtn.classList.remove("subscribed")
+        const validate = confirm("Are you sure you want to Unsubscribed?")
+        if (!validate){
+            subscribeBtn.innerHTML = "Subscribed"
+        }else{
+            subscribeBtn.classList.remove("subscribed")
+        }
+        /*OR
+        if (validate === true){
+            subscribeBtn.classList.remove("subscribed")
+        }else{
+            subscribeBtn.innerHTML = "Subscribed"
+        }*/
     }
 });
 
