@@ -84,8 +84,20 @@ function turnOffToggle(){
 
 // .Section JS
 
-const container = document.getElementById("main-heading")
+const container = document.querySelector("#main-heading")
+container.style.color="red"
 console.log(container)
 
+    //Create new list using DOM
+const ul = document.querySelector("ul");
+const li = document.createElement("li");
+ul.append(li)
+li.innerText = "Mario"
 
+    //modify using attributes
+// li.setAttribute('class', 'list-items')
+    //modify using class
+li.classList.add('list-items')
 
+//remove element
+// li.remove()
