@@ -8,32 +8,50 @@
     <script src="index.js" defer></script>
 </head>
 <body>
+  <section>
     <h1 class="youtube">Youtube Subscribe Button</h1>
     <button class="youtube-btn">Subscribe</button>
-    <hr>
-
+  </section>
+  <hr>
+  <section>
     <h2>Amazon Shipping Calculator</h2>
     <p>Orders under $40 = +$10 shipping.</p>
     <p>Orders over $40 = FREE shipping.</p>
-    <input type="text" 
-   placeholder="Cost of order" class="input-text">
+    <input type="text" placeholder="Cost of order" class="input-text">
     <button class="calculate-btn">Calculate</button>
     <p class="final-figure"></p>
-
-    <!-- Displays as you type -->
+  </section>
+   <hr>
+  <section>
+    <!-- Displays as you type, 
+    in Js use .value when dealing with html input tags-->
     <input placeholder="Type something" class="js-input"
       onkeyup="
         const inputElement = document.querySelector('.js-input');
         document.querySelector('.js-message')
           .innerHTML = inputElement.value;
       ">
-
     <p class="js-message"></p>
-
+  </section> 
+  <hr>
+  <section>
     <button class="toggle-btn btn">Gaming</button>
     <br><br>
-
     <button class="toggle-btn btn1">Gaming</button>
     <button class="toggle-btn btn2">Music</button>
     <button class="toggle-btn btn3">Tech </button>
+  </section>
+  <hr>
+  <section class="section">
+    <div class="container">
+      <h1 class="main-heading" id="main-heading">Favourite Movie Franchise</h1>
+      <ul>
+        <li class="list-items">The Matrix</li>
+        <li class="list-items">Star Wars</li>
+        <li class="list-items">Harry Potter</li>
+        <li class="list-items">Lord of the Rings</li>
+        <li class="list-items">Marvel</li>
+      </ul>
+    </div>
+  </section>
 </html>

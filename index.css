@@ -62,3 +62,49 @@
     color: #fff;
     background-color: #000;
 }
+
+
+
+
+/* .Section */
+.section{
+    background-color: rgb(41, 58, 68);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}    
+
+.container{
+    border: 3px #fff solid;
+    border-radius: 6px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    
+}        
+h1{
+    color: #fff;
+}
+ul{
+    padding:0;
+    margin: 15px;
+}
+li {
+    list-style-type: none;
+    
+}
+
+.list-items{
+    background-color: #fff;
+    margin-bottom: 2px;
+    font-size: larger;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+   
+
+
