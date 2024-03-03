@@ -8,6 +8,9 @@
     font-weight: bolder;
     cursor: pointer;
 }
+.youtube{
+    color: #000;
+}
 
 .subscribed{
     color: black;
@@ -85,7 +88,7 @@
     margin: auto;
     
 }        
-h1{
+.main-heading{
     color: #fff;
 }
 ul{
@@ -105,6 +108,46 @@ li {
     padding-top: 10px;
     text-align: center;
 }
-   
 
 
+/*EventListner*/
+
+.section2{
+    background-color: rgba(11, 48, 104, 0.832);
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+.test-one{
+    width: 100px;
+    border: 2px #fff solid;
+    padding: 25px;
+    background-color: rgb(52,83,129);
+    border-radius: 7px;
+    color: #fff;
+    margin-left: 2px;
+    margin-right: 3px;
+    cursor: pointer;
+    height: 260px;
+}
+.div{
+    width: 50%;
+    border: 2px #fff solid;
+    padding: 25px;
+    background-color: rgb(52,83,129);
+    border-radius: 7px;
+    color: #fff;
+    height: 205px;
+}
+
+
+.hidden-content{
+    display: none;
+}
+
+
+.hidden-content.reveal-btn{
+    display: block;
+}

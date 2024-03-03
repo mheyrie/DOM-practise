@@ -86,7 +86,7 @@ function turnOffToggle(){
 
 const container = document.querySelector("#main-heading")
 container.style.color="red"
-console.log(container)
+// console.log(container)
 
     //Create new list using DOM
 const ul = document.querySelector("ul");
@@ -101,3 +101,19 @@ li.classList.add('list-items')
 
 //remove element
 // li.remove()
+
+//Section2 Eventlistener
+
+const revealBtn = document.querySelector('.reveal-btn')
+const hiddenCnt = document.querySelector('.hidden-content')
+
+function revealContent(){
+    if(hiddenCnt.classList.contains('reveal-btn')){
+        hiddenCnt.classList.remove('reveal-btn')
+        hiddenCnt.style.width = "300px"
+    }else{
+        hiddenCnt.classList.add('reveal-btn')
+        hiddenCnt.style.width = ""
+    }
+}
+revealBtn.addEventListener('click', revealContent)
